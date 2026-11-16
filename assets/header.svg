@@ -1,20 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">SeasonMay</title>
-  <desc id="desc">Build. Verify. Improve. AI applications and systems exploration.</desc>
-  <defs>
-    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d172b"/><stop offset="1" stop-color="#142e3e"/></linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#75bcb9" stroke-opacity=".08"/></pattern>
-  </defs>
-  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
-  <rect x="64" y="60" width="42" height="4" rx="2" fill="#5eead4"/>
-  <text x="64" y="140" fill="#f1f5f9" font-family="Segoe UI,Arial,sans-serif" font-size="66" font-weight="700" letter-spacing="-2">SeasonMay</text>
-  <text x="67" y="191" fill="#9fb6c7" font-family="Segoe UI,Arial,sans-serif" font-size="23" letter-spacing="2">BUILD. VERIFY. IMPROVE.</text>
-  <text x="67" y="249" fill="#65d7c6" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3">AI APPLICATIONS / SYSTEMS / OPEN SOURCE</text>
-  <g fill="none" stroke="#5eead4" stroke-width="2">
-    <path d="M850 100L930 65L1040 130L1000 230L870 215Z" opacity=".3"/>
-    <path d="M850 100L1000 230M930 65L870 215M1040 130L870 215" opacity=".18"/>
-  </g>
-  <g fill="#5eead4"><circle cx="850" cy="100" r="6"/><circle cx="930" cy="65" r="4"/><circle cx="1040" cy="130" r="7"/><circle cx="1000" cy="230" r="4"/><circle cx="870" cy="215" r="5"/></g>
-  <circle cx="1040" cy="130" r="17" fill="none" stroke="#5eead4" opacity=".2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img">
+<title>SeasonMay — AI, Systems, Open Source</title>
+<defs>
+ <linearGradient id="edge"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#fb7185"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#6d28d9" stop-opacity=".5"/><stop offset="1" stop-color="#090e20" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".06"/></pattern>
+</defs>
+<style>
+ @keyframes orbit{to{transform:rotate(360deg)}}
+ @keyframes blink{50%{opacity:0}}
+ @keyframes breathe{50%{opacity:.35}}
+ .orbit{transform-origin:790px 172px;animation:orbit 24s linear infinite}
+ .cursor{animation:blink 1.2s steps(1) infinite}
+ .pulse{animation:breathe 4s ease-in-out infinite}
+ @media(prefers-reduced-motion:reduce){.orbit,.cursor,.pulse{animation:none}}
+</style>
+<rect x="1" y="1" width="998" height="458" rx="24" fill="#090e20" stroke="#293250"/>
+<rect x="1" y="1" width="998" height="458" rx="24" fill="url(#grid)"/>
+<ellipse cx="800" cy="170" rx="290" ry="240" fill="url(#halo)"/>
+<path d="M26 1H974" stroke="url(#edge)" stroke-width="3"/>
+<text x="48" y="48" fill="#22d3ee" font-family="Consolas,monospace" font-size="12" letter-spacing="3">SEASONMAY / PERSONAL SPACE</text>
+<circle cx="932" cy="44" r="4" fill="#34d399" class="pulse"/>
+<text x="48" y="142" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-4">SeasonMay<tspan fill="#22d3ee">.</tspan></text>
+<text x="51" y="183" fill="#b5bfd5" font-family="Segoe UI,Arial,sans-serif" font-size="20">Curiosity into code. Ideas into experiments.</text>
+<g font-family="Consolas,monospace" font-size="11" letter-spacing="1">
+ <rect x="50" y="209" width="112" height="28" rx="14" fill="#103341"/><text x="68" y="227" fill="#67e8f9">AI SYSTEMS</text>
+ <rect x="173" y="209" width="130" height="28" rx="14" fill="#282046"/><text x="188" y="227" fill="#c4b5fd">OPEN SOURCE</text>
+ <rect x="314" y="209" width="136" height="28" rx="14" fill="#332136"/><text x="333" y="227" fill="#fda4af">BUILD &amp; LEARN</text>
+</g>
+<circle cx="790" cy="172" r="107" fill="none" stroke="#4c3f7e" stroke-width="1"/>
+<circle cx="790" cy="172" r="82" fill="none" stroke="#22d3ee" stroke-opacity=".28" stroke-dasharray="3 8"/>
+<g class="orbit"><ellipse cx="790" cy="172" rx="133" ry="48" fill="none" stroke="url(#edge)" stroke-width="2"/><circle cx="923" cy="172" r="6" fill="#22d3ee"/></g>
+<g class="orbit" style="animation-direction:reverse;animation-duration:35s"><circle cx="790" cy="65" r="5" fill="#c4b5fd"/></g>
+<rect x="741" y="123" width="98" height="98" rx="27" fill="#131a32" stroke="#a78bfa" stroke-opacity=".65"/>
+<text x="790" y="185" text-anchor="middle" fill="#e9e5ff" font-family="Consolas,monospace" font-size="35" font-weight="700">S/M</text>
+<rect x="48" y="272" width="904" height="148" rx="12" fill="#0c1428" stroke="#293250"/>
+<path d="M48 306H952" stroke="#293250"/>
+<g><circle cx="67" cy="289" r="4" fill="#fb7185"/><circle cx="82" cy="289" r="4" fill="#fbbf24"/><circle cx="97" cy="289" r="4" fill="#34d399"/></g>
+<text x="500" y="293" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#7686a8">seasonmay@github: ~</text>
+<g font-family="Consolas,monospace" font-size="15"><text x="69" y="336" fill="#67e8f9">$ whoami</text><text x="69" y="364" fill="#c9d4ea">Exploring AI applications, reliable systems &amp; open source.</text><text x="69" y="393" fill="#a78bfa">$ reproduce → understand → improve</text></g>
+<rect class="cursor" x="403" y="380" width="9" height="17" fill="#a78bfa"/>
 </svg>
