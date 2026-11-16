@@ -31,9 +31,9 @@ class SeasonMay:
 ### ⚡ Open source / 从问题到修复
 
 <p align="center">
-  <a href="https://github.com/hugegraph/hugegraph-ai/pull/117"><img src="./assets/sse.svg" width="280" alt="PR 117：SSE 溢出恢复提示" /></a>
-  <a href="https://github.com/hugegraph/hugegraph-ai/pull/118"><img src="./assets/boundary.svg" width="280" alt="PR 118：提示词路径边界" /></a>
-  <a href="https://github.com/hugegraph/hugegraph-ai/pull/119"><img src="./assets/filters.svg" width="280" alt="PR 119：文档过滤一致性" /></a>
+  <a href="https://github.com/hugegraph/hugegraph-ai/pull/117"><img src="./assets/sse.svg" width="270" alt="PR 117：SSE 溢出恢复提示" /></a>
+  <a href="https://github.com/hugegraph/hugegraph-ai/pull/118"><img src="./assets/boundary.svg" width="270" alt="PR 118：提示词路径边界" /></a>
+  <a href="https://github.com/hugegraph/hugegraph-ai/pull/119"><img src="./assets/filters.svg" width="270" alt="PR 119：文档过滤一致性" /></a>
 </p>
 
 - **事件通知** → 慢订阅者溢出时明确提示重新同步，保持正常订阅者独立运行。
