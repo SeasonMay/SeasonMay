@@ -1,71 +1,71 @@
-<p align="center">
-  <img src="./assets/header.svg" width="100%" alt="SeasonMay · 动态霓虹轨道与开发者终端" />
-</p>
+<div align="center">
 
-<p align="center">
-  <b>你好，我是 SeasonMay 👋</b><br />
-  从端侧 AI 到应用工程，把好奇心写进代码，把问题变成可验证的改进。
-</p>
+# 👋 Hi, I'm SeasonMay
 
-<p align="center">
-  <a href="https://github.com/SeasonMay?tab=repositories"><b>⌘ 项目仓库</b></a> &nbsp; / &nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASeasonMay"><b>↗ 开源贡献</b></a> &nbsp; / &nbsp;
-  <a href="https://github.com/SeasonMay?tab=stars"><b>✦ 探索收藏</b></a>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=70A5FD&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Exploring+Agent+Memory+%26+AI+Systems.;Make+context+count.+Make+memory+useful.;Stay+curious.+Keep+building." alt="动态打字：Exploring Agent Memory &amp; AI Systems" width="650" />
 
-### 🧑‍💻 About / 正在探索
+**让 Agent 记得住，也用得好。**
 
-```python
-class SeasonMay:
-    interests = ["AI", "Systems", "Edge"]
-    currently = "HugeGraph AI / Ontogeny"
-    workflow  = "Reproduce → Fix → Verify"
-```
+[项目仓库](https://github.com/SeasonMay?tab=repositories) · [开源贡献](https://github.com/pulls?q=is%3Apr+author%3ASeasonMay) · [探索收藏](https://github.com/SeasonMay?tab=stars)
 
-关注 AI 与数据如何连接到真实应用，也关心系统在边界条件下是否依然可靠。最近在阅读 Ontogeny 源码，通过本地复现、回归测试和小型 PR 参与开源。
+</div>
 
-### 🛠 Toolkit / 实践工具
+## 🧑‍💻 关于我
 
-<img src="./assets/toolkit.svg" width="100%" alt="实践中使用 Python、Docker、Git、Linux、SQLite 和 pytest" />
+- 🧠 关注 **AI Agent、长期记忆与上下文检索**。
+- 🔬 最近在 **腾讯 TencentDB Agent Memory** 上探索来源反馈评估与预算约束检索。
+- 🛠 喜欢把想法做成能运行、能复现、能对比的实验。
+- 🌱 也在探索端侧 AI、知识库与应用工程。
 
-### ⚡ Open source / 从问题到修复
+## 🚀 重点贡献 · Agent Memory
 
-<p align="center">
-  <a href="https://github.com/hugegraph/hugegraph-ai/pull/117"><img src="./assets/sse.svg" width="270" alt="PR 117：SSE 溢出恢复提示" /></a>
-  <a href="https://github.com/hugegraph/hugegraph-ai/pull/118"><img src="./assets/boundary.svg" width="270" alt="PR 118：提示词路径边界" /></a>
-  <a href="https://github.com/hugegraph/hugegraph-ai/pull/119"><img src="./assets/filters.svg" width="270" alt="PR 119：文档过滤一致性" /></a>
-</p>
+<a href="https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1369"><img src="./profile/memory.svg" width="100%" alt="TencentDB Agent Memory：来源评估 → 反馈学习 → 预算检索；个人贡献 PR #1369" /></a>
 
-- **事件通知** → 慢订阅者溢出时明确提示重新同步，保持正常订阅者独立运行。
-- **路径边界** → 解析真实路径后检查目录包含关系，覆盖相邻目录与符号链接。
-- **文档发现** → 统一过滤路径基准，同时保留已有文档 ID。
+**记忆检索不只看召回了什么，也要验证哪些来源真正帮助了回答。**
+
+我提交了一个基于 MemoryCore 的独立实验示例：通过移除来源与匹配对照评估记忆作用，将反馈用于检索排序，在 Token 预算内选择上下文，并在辅助链路异常时回退到原生检索。
+
+[查看我的 PR #1369 ↗](https://github.com/TencentCloud/TencentDB-Agent-Memory/pull/1369) · [腾讯上游项目](https://github.com/TencentCloud/TencentDB-Agent-Memory) · [我的 Fork](https://github.com/SeasonMay/TencentDB-Agent-Memory)
+
+<sub>贡献为独立示例，实验设置、结果和审查状态见 PR；不代表项目整体或生产效果。</sub>
+
+## 📊 GitHub 数据
+
+<div align="center">
+  <img src="./profile/stats.svg" width="405" alt="SeasonMay 的公开仓库、Star、PR 与 Issue 统计" />
+  <img src="./profile/languages.svg" width="405" alt="自有公开非 Fork 仓库的语言字节分布" />
+</div>
+
+<sub>每日更新；语言分布按自有公开非 Fork 仓库的代码字节统计，不代表熟练度。</sub>
+
+## 🐍 贡献足迹
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg" />
+  <img src="./profile/snake.svg" width="100%" alt="SeasonMay 真实 GitHub 贡献日历生成的贪吃蛇动画" />
+</picture>
+
+## 🧭 继续探索
+
+| 项目 | 方向 |
+| :--- | :--- |
+| [SafeMicroService](https://github.com/SeasonMay/SafeMicroService) | 应用工程 |
+| [RK3588 Stable Diffusion](https://github.com/SeasonMay/RK3588-stable-diffusion-GPU) | 端侧生成式 AI · Fork |
+| [deepmemo](https://github.com/SeasonMay/deepmemo) | 本地知识库与问答 · Fork |
 
 <details>
-<summary><b>展开更多贡献与验证方式 ↗</b></summary>
+<summary>🛠 其他开源贡献</summary>
 
-| PR | 解决的问题 |
-| :--- | :--- |
-| [#104](https://github.com/hugegraph/hugegraph-ai/pull/104) | glob 选择器绕过 Store 的 include/exclude |
-| [#106](https://github.com/hugegraph/hugegraph-ai/pull/106) | 指定单文件却扫描同目录其他文档 |
+在 HugeGraph AI / Ontogeny 中提交了事件通知、路径边界和文档发现相关修复：
 
-使用真实临时文件、pytest 与 Docker 对比修复前后的行为，并记录验证范围。以上链接为已提交贡献，合并与审查状态以对应 PR 页面为准。
+[SSE 溢出提示 #117](https://github.com/hugegraph/hugegraph-ai/pull/117) · [路径边界 #118](https://github.com/hugegraph/hugegraph-ai/pull/118) · [文档过滤 #119](https://github.com/hugegraph/hugegraph-ai/pull/119) · [glob 过滤 #104](https://github.com/hugegraph/hugegraph-ai/pull/104) · [单文件扫描 #106](https://github.com/hugegraph/hugegraph-ai/pull/106)
 
 </details>
 
-### 🧭 Explore / 项目入口
+---
 
-| 🧩 应用工程 | 🤖 AI 与设备 |
-| :--- | :--- |
-| **[SafeMicroService](https://github.com/SeasonMay/SafeMicroService)**<br />微服务项目仓库 | **[RK3588 Stable Diffusion](https://github.com/SeasonMay/RK3588-stable-diffusion-GPU)**<br />RK3588 Mali GPU 上的生成式 AI · Fork |
-| **[deepmemo](https://github.com/SeasonMay/deepmemo)**<br />本地优先的知识库与问答工作台 · Fork | **[RISC-V Board Wandering](https://github.com/SeasonMay/riscv-board-wandering)**<br />RISC-V 开发板探索 · Fork |
-
-<sub>Fork 项目保留上游作者归属；个人改动以实际提交记录为准。</sub>
-
-<img src="./assets/footer.svg" width="100%" alt="Always curious. Always building." />
-
-<details>
-<summary>Design notes</summary>
-
-视觉灵感来自 [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme)、[Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg) 和 [Capsule Render](https://github.com/kyechan99/capsule-render) 的终端、动态文字与横幅形式。本站 SVG 为自制图形，保存在仓库内；无需外部统计服务或定时工作流。可通过 `python tools/build_assets.py` 重新生成。
-
-</details>
+<div align="center">
+<sub>Stay curious. Keep building.</sub><br />
+<sub>Layout inspiration: <a href="https://github.com/zlh123123">zlh123123</a> · Animation: <a href="https://github.com/Platane/snk">snk</a> / <a href="https://github.com/DenverCoder1/readme-typing-svg">Typing SVG</a></sub>
+</div>
